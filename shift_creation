@@ -1,3 +1,4 @@
+
 {
   "accountId": "c000000000",
   "userId": "u000000000",
@@ -9,5 +10,19 @@
   "event": "Log in",
   "properties": {
      "userEmail": "ddoherty@cirka.com.au"
+  }
+}
+
+{
+  "accountId": {{ account.some_account_id_here }},
+  "userId": {{ user.some_user_id_here }},
+  "userType": {{ user.some_user_type_here }},
+  "platformType": {{ account.some_platform_type_here }},
+  "industryType": {{ account.some_industry_type_here }},
+  "goLiveDate": {{ account.some_industry_type_here }}, 
+  "type": "GTM Track",
+  "event": "Log in",
+  "properties": {
+     "userEmail": {{ user.some_user_email }}
   }
 }
