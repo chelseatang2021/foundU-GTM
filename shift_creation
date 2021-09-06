@@ -1,0 +1,13 @@
+{
+  "accountId": "c000000000",
+  "userId": "u000000000",
+  "userType": "Admin",
+  "platformType": "Labour Hire",
+  "industryType": "Administrative and Support Services",
+  "goLiveDate": "2018-12-12",  
+  "type": "GTM Track",
+  "event": "Log in",
+  "properties": {
+     "userEmail": "ddoherty@cirka.com.au"
+  }
+}
